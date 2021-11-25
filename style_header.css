@@ -1,0 +1,25 @@
+header {
+    width: 100vw;
+    background-color: #1B1C20;
+}
+header {
+    width: 100vw;
+    padding: 9px 16px;
+}
+header > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header > ul > li {
+    display: inline-block;
+    font-size: 11px;
+    color: #A1A7BB;
+    margin-right: 16px;
+}
+header > ul > li:last-child {
+    margin: 0;
+}
+.blue {
+    color: #6188FB;
+}
