@@ -1,24 +1,49 @@
 header {
-    width: 100vw;
+    width: 100%;
     background-color: #1B1C20;
+    box-sizing: border-box;
 }
-header {
-    width: 100vw;
-    padding: 9px 16px;
+.crypto_info_bar {
+    box-sizing: border-box;
+    padding: 5px 35px;
+    border-bottom: 1px solid #222328;
 }
-header > ul {
+.crypto_info_bar > ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-header > ul > li {
+.crypto_info_bar > ul > li {
     display: inline-block;
-    font-size: 11px;
-    color: #A1A7BB;
     margin-right: 16px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #A1A7BB;
 }
-header > ul > li:last-child {
-    margin: 0;
+.crypto_info_bar > ul > li:last-child {
+    float: right;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+nav {
+    clear: both;
+    padding: 5px 35px;
+}
+#logo {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    height: 61px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(237, 233, 233);
+}
+.fa-bitcoin {
+    font-size: 30px;
+    margin-right: 7px;
 }
 .blue {
     color: #6188FB;
