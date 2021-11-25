@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color: ;
+}
+header {
+    width: 100vw;
+    background-color: #303030;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav > ul {
+    display: flex;
+
+    list-style: none;
+    margin: 0;
+    padding: 20px 10px;
+}
+.nav_element {
+    display: inline-block;
+    margin: 0 20px;
+
+    font-size: 22px;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+.nav_element:hover {
+    transform: scale(1.1);
+}
